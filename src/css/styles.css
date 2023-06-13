@@ -1,0 +1,103 @@
+body {
+  background-image: url(../images/cielo.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  padding: 0 10px 0 10px;
+  font-family: sans-serif;
+}
+
+.head-score {
+  margin: auto;
+  display: flex;
+  max-width: 300px;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+}
+
+.span-blue {
+  color: #4287f5;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+}
+
+.game-container {
+  width: 100%;
+  text-align: center;
+}
+
+.score-rosas,
+.score-azules {
+  font-size: 24px;
+}
+
+.score-rosas.large,
+.score-azules.large {
+  font-size: 30px;
+}
+
+.timer {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.timer.red {
+  color: red;
+}
+
+.bird-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  max-width: 400px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  justify-items: center;
+}
+
+.bird {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  position: relative;
+}
+
+.bird img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.game-over {
+  text-align: center;
+}
+
+.game-over h1 {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.game-over p {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.game-over button {
+  font-size: 18px;
+  padding: 8px 16px;
+  background-color: #4287f5;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
