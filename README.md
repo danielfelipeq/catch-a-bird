@@ -18,7 +18,7 @@
 - Diseño responsive para adaptarse a diferentes dispositivos y tamaños de pantalla.
 
 ## Demo
-Puedes probar el juego en vivo en [este enlace](link-al-juego).
+Puedes probar el juego en vivo en [este enlace](https://vermillion-moxie-98d73f.netlify.app).
 
 ## Instalación y ejecución
 Sigue estos pasos para instalar y ejecutar el proyecto de manera local:
