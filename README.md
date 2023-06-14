@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Don't Touch Blue Bird
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image](https://github.com/danielfelipeq/catch-a-bird/assets/76141485/fa2cf085-cc0c-43d1-b77f-2e1c50e54d5f)
 
-## Available Scripts
+## Descripción
+"Don't Touch Blue Bird" es un juego simple construido en React donde el objetivo es evitar tocar el ave azul. El juego cuenta la cantidad de veces que se toca a otro tipo de ave y genera un puntaje basado en el rendimiento del jugador.
 
-In the project directory, you can run:
+## Características
+- Interfaz interactiva y amigable para el usuario.
+- Aparición aleatoria de aves rosas y azules.
+- Incremento del puntaje al tocar aves rosas y azules.
+- Registro de la cantidad de veces que se toca a un ave rosa.
+- Evitar tocar al ave azul para no penalizar el puntaje.
+- Puntaje final basado en la cantidad de veces que se toca un ave rosa.
+- Temporizador de 60 segundos para completar el juego.
+- Reinicio del juego una vez finalizado.
+- Estilos CSS personalizados para una apariencia atractiva.
+- Diseño responsive para adaptarse a diferentes dispositivos y tamaños de pantalla.
 
-### `npm start`
+## Demo
+Puedes probar el juego en vivo en [este enlace](link-al-juego).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Instalación y ejecución
+Sigue estos pasos para instalar y ejecutar el proyecto de manera local:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clona este repositorio en tu máquina local:
 
-### `npm test`
+```bash
+git clone https://github.com/danielfelipeq/catch-a-bird
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2. Navega hasta el directorio del proyecto:
+```bash
+cd catch-a-bird
+```
+3. Instala las dependencias necesarias:
+```bash
+npm install
+```
+4. Inicia la aplicación:
+```bash
+npm start
+```
+5. Abre tu navegador web y ve a http://localhost:3000 para jugar al juego "Don't Touch Blue Bird".
