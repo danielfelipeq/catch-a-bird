@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from "react";
 import Bird from "./Bird";
 import birdBlue from "./images/aveAzul.png";
